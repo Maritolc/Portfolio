@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--MENU ENCABEZADO-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="">Mario</a>
+            </div>
+           <nav id="nav">
+            <ul>
+                <li> <a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                <li> <a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                <li> <a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                <li> <a href="#educacion" onclick="seleccionar()">EDUCACIÓN</a></li>
+                <li> <a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                <li> <a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+            </ul>
+           </nav>
+           <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+            <i class="fa-solid fa-angles-down"></i>
+           </div>
+        </header>
+    </div>
+
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero-2.png" alt="">
+            </div>
+            <h1>MARIO LONDOÑO</h1>
+            <h2>Maquetador Web - Desarrollador Web</h2>
+            <div class="redes">
+                <a href="https://www.instagram.com/marito.parce/"><i class="fa-brands fa-instagram"></i> </a>
+                <a href="https://www.linkedin.com/in/mario-londo%C3%B1o-4552ab244/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://wa.link/7psi7x"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://t.me/parcee94"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+            
+
+        </div>
+    </section>
+
+    <!--SECCION SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola!! soy Mario Londoño.</span> <br> Estudiante de desarrollo web residente en Ciudad Autónoma de Buenos Aires.
+                Desarrollador web generando experiencia bajo sus propios proyectos, aprendiendo con la practica y la constancia de mantenerme 
+                siempre aprendiendo nuevas tecnologías, técnicas y tendencias de desarrollo y maquetado actuales.
+            </p>
+        
+        <div class="fila">
+            <!--datos personales-->
+            <div class="col">
+                <h3>Datos Personales</h3>
+                <ul>
+                    <li>
+                        <strong>Cumpleaños</strong>
+                        22-04-1994
+                    </li>
+                    <li>
+                        <strong>Teléfono</strong>
+                        1138949163
+                    </li>
+                    <li>
+                        <strong>Email</strong>
+                        mlondonoc@outlook.com
+                    </li>
+                    <li>
+                        <strong>Dirección</strong>
+                        Belgrano CABA
+                    </li>
+                    <li>
+                        <strong>Cargo</strong>
+                        
+                        <span>Desarrollador Freelancer</span>
+                    </li>
+                </ul>
+
+            </div>
+            <!--intereses-->
+            <div class="col">
+                <h3>Intereses</h3>
+                <div class="contenedor-intereses">
+                    <div class="interes">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span>JUEGOS</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-headphones"></i>
+                        <span>MÚSICA</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-plane"></i>
+                        <span>VIAJAR</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-microchip"></i>
+                        <span>TECNOLOGÍA</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-person-hiking"></i>
+                        <span>DEPORTE</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-book"></i>
+                        <span>LIBROS</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-tree"></i>
+                        <span>NATURALEZA</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-camera"></i>
+                        <span>FOTOS</span>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+     
+    </div>
+</section>
+
+    <!--SECCIÓN SKILLS-->
+    <section id="skills" class="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--technical Skills-->
+                <div class="col">
+                <h3>Habilidades Técnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Bootstrap</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SCSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+                <!--Professional Skills-->
+            <div class="col">
+                <h3>Habilidades Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Ingles</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!--SECCION EDUCACION-->
+    
+    <section id="educacion" class="educacion">
+        <div class="contenido-seccion">
+            <h2>Educacion</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Estudios finalizados</h3>
+                    <div class="item izq">
+                        <h4>logica de programacion</h4>
+                        <span class="casa">Polotic Misiones</span>
+                        <span class="fecha">
+                            09-20-2020
+                        </span>
+                        <p>Aprobé con éxito el curso de lógica de programación ofrecido por el POLOTIC, organización educativa con énfasis en las tecnologías de la información y la comunicación.
+                            <br>
+                            <br>
+                            <br>
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Programacion web full stack con React JS</h4>
+                        <span class="casa">Universidad Tecnologica Nacional </span>
+                        <span class="fecha">
+                            11-08-2021
+                        </span>
+                        <p>Aprobé con éxito el curso de programación web full stack con React JS en el cual tuve la oportunidad de realizar proyectos en equipo con mis compañeros de cursada y también abrí mi conocimiento hacia tecnologías como React Js con lo cual me di cuenta que hay mucho por descubrir.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Desarrollo Web Javascript/Node.JS</h4>
+                        <span class="casa">Codo A Codo 4.0</span>
+                        <span class="fecha">
+                            07-20-2022
+                        </span>
+                        <p>Aprobé con éxito el curso de programación web Javascript/Node.JS en el cual tuve noción sobre el dinamismo de las paginas web y también del back end de la programación. continuo con mi aprendizaje en Javascript y Node.js </p>
+                        <br>
+                        
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Estudios en curso</h3>
+                    <div class="item der">
+                        <h4>Carrera Desarrollo Web Full Stack</h4>
+                        <span class="casa">Coderhouse</span>
+                        <span class="fecha">
+                            22-07-2023
+                        </span>
+                        <p>Finalize con éxito la carrera de desarrollador web en la institución Coderhouse en la cual tve la oportunidad de hacer varios cursos y entender el profesionalismo en el ámbito del desarrollo web, maquetado y estructura y optimización de motores de búsqueda CEO.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                        <div class="item der">
+                            <h4>Curso de Node.js</h4>
+                            <span class="casa">Bluu Web</span>
+                            <span class="fecha">
+                                Actualmente
+                            </span>
+                            <p>Con el objetivo de profundizar mi aprendizaje en Node.js decidí continuar mis estudios de una manera mas practica con instructores que van al ritmo de la evolución en el desarrollo, por lo cual continuo mis estudios en Bluuweb una plataforma de cursos online que me parece practica y novedosa.</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                            <div class="item der">
+                                <h4>Curso de Vue & React</h4>
+                                <span class="casa">Bluu Web</span>
+                                <span class="fecha">
+                                    Actualmente
+                                </span>
+                                <p>Con el objetivo de aprender mas decidí continuar mis estudios de una manera mas practica con instructores que van al ritmo de la evolución en el desarrollo, por lo cual continuo mis estudios en Bluuweb una plataforma de cursos online que me parece practica y novedosa.</p>
+                                <div class="conectord">
+                                    <div class="circulod"></div>
+                                </div>
+                            </div>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <!--SECCION PORTFOLIO-->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>CERTIFICADOS DE ESTUDIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="/certificados/certificado CODERHOUSE.png" alt="">
+                    <div class="overlay">
+                        <h3>CODERHOUSE</h3>
+                        <p>Carrera de desarrollo web</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/certificados/certificado codo a codo.pdf.png" alt="">
+                    <div class="overlay">
+                        <h3>CODO A CODO 4.0</h3>
+                        <p>Desarrollo Web - Javascript/Node.Js</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/certificados/certificado+UTN1024_1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>UNIVERSIDAD TECNOLOGICA DE BUENOS AIRES</h3>
+                        <p>Diplomatura en desarrollo web fullstack/React</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/certificados/Certificado Polotic Misiones1024_1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>POLOTIC-MISIONES</h3>
+                        <p>Introduccion a la programacion</p>
+                    </div>
+                </div>
+            </div>   
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION CONTACTO-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!--Formulario-->
+                <div class="col">
+                <input type="text" placeholder="Tu Nombre">
+                <input type="text" placeholder="Numero Telefonico">
+                <input type="text" placeholder="Correo Electronico">
+                <input type="text" placeholder="Tema">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <button>
+                    Enviar Mensaje <i class="fa-solid fa-share-from-square"></i>
+                    <span class="overlay"></span>
+                </button> 
+                </div>
+                <!--Mapa-->
+                <div class="col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.666403786753!2d-58.456620699999995!3d-34.5620009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d3849c3221%3A0xc8999711cc581a5b!2sAv.%20Cabildo%20%26%20Av.%20Juramento%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1694543333202!5m2!1ses!2sar" width="600" height="555" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="info">
+                        <ul>
+
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Belgrano, Ciudad Autónoma De Buenos Aires.
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-telegram"></i>
+                                Contactame por telegram.
+                            </li>
+                            <li><i class="fa-regular fa-envelope"></i>
+                                Contactame por correo electronico.
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.instagram.com/marito.parce/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/mario-londo%C3%B1o-4552ab244/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://wa.link/7psi7x"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://t.me/parcee94"><i class="fa-brands fa-telegram"></i></a>
+            <p>Mario Londoño Desarrollador- Maquetador Web.</p>
+        </div>
+        
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
